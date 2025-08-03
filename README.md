@@ -20,7 +20,8 @@ This project was developed as part of the inal Capstone Examfor the course Intro
 
 - Title: Agriculture and Rural Development – Rwanda  
 - Source: [Humanitarian Data Exchange (HDX)](https://data.humdata.org/)  
-- **Link:** [Download CSV](https://data.humdata.org/dataset/e2e4318c-a5b2-4f89-bcf9-9aa5305274b7/resource/76b8e361-0e9e-4154-aeb4-ff07d8f738c8/download/agriculture-and-rural-development_rwa.csv)  
+- **Dataset Link:** [Download CSV](https://data.humdata.org/dataset/e2e4318c-a5b2-4f89-bcf9-9aa5305274b7/resource/76b8e361-0e9e-4154-aeb4-ff07d8f738c8/download/agriculture-and-rural-development_rwa.csv)
+- **Colab link:** [Reach on my google colab link](https://colab.research.google.com/drive/10R5wEVpIN51sNwyzvCP2zfbWGG-57H7_?authuser=0#scrollTo=zN9_qU5UJw8w)
 - Format: CSV  
 - Size: 60 rows × 6 columns 
 
