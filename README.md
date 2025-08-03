@@ -1,11 +1,10 @@
 # 🌾 Rwanda Agriculture Development Analytics | INSY 8413 Capstone Project
 
 ## 📘 Project Overview
-This project was developed as part of the inal Capstone Examfor the course Introduction to Big Data Analytics. It analyzes Rwanda's agricultural trends using Python and Power BI to reveal insights that can improve rural development outcome and if it enhance there day to day life.
-
+This project explores agricultural development trends in Rwanda using data analytics. By analyzing key indicators such as land use, crop production, and rural development metrics, the goal is to uncover patterns and insights that can support more informed agricultural planning. The project uses Python for data preprocessing, visualization, and clustering, and Power BI for interactive dashboards. This combination provides both deep analytical insight and user-friendly visual storytelling.
 ---
 
-## 👤 Student Information
+## MY Information
 
 - **Name: Nshuti Dorothy and ID:27129 
 - **Sector: Agriculture  
@@ -27,9 +26,9 @@ This project was developed as part of the inal Capstone Examfor the course Intro
 
 
 ## 🧪 Python Analytics Tasks
+In this section, we used Python to clean and explore the dataset, apply clustering techniques, and evaluate the results. The goal was to uncover patterns in agricultural data and support better decision-making.
 
-All the code for the following steps should be written inside the notebook:  
-📄 `Agliculture cl.ipynb`
+
 
 ### ✅ 1. Data Cleaning
 - Handle missing values
@@ -52,6 +51,8 @@ for c in cat_cols:
 
  screenshots of visualizations in: <img width="970" height="686" alt="image" src="https://github.com/user-attachments/assets/2c3e26e8-d399-4739-a9d1-99704a79cf78" />
 enshots/eda/`
+<img width="983" height="706" alt="image" src="https://github.com/user-attachments/assets/cb7ff127-3fd5-4a85-8fb0-17b39e89a731" />
+<img width="982" height="658" alt="image" src="https://github.com/user-attachments/assets/e7eda53f-a667-41da-b3d9-5789a4fcfbf8" />
 
 ### ✅ 3. Machine Learning – Clustering
 - Chosen Model: K-Means Clustering
