@@ -35,8 +35,13 @@ All the code for the following steps should be written inside the notebook:
 - Fill missing values (forward fill, backward fill)
 - Standardize data types
 - Detect and remove outliers using IQR
-- Apply scaling (`StandardScaler`)
+- Apply scaling 
 <img width="980" height="685" alt="image" src="https://github.com/user-attachments/assets/e1389a26-16ff-4b95-996e-30ceb78f7c8c" />
+
+# Categorical/text columns: fill with most common
+cat_cols = df.select_dtypes(include=['object']).columns
+for c in cat_cols:
+    df[c] = df[c].fillna(df[c].mode()[0])
 
 ### ✅ 2. Exploratory Data Analysis (EDA)
 - Descriptive statistics (`df.describe()`)
@@ -71,35 +76,10 @@ You should create a Power BI dashboard that includes:
 - **Bar Chart:** Top development indicators
 - **Map (optional):** If geolocation is available
 - **Slicers:** Year and Indicator filter
-- **KPIs:** Highest growth year, average development
+  
 
-👉 Save this in:  
-📄 `powerbi/agriculture_dashboard.pbix`
 
-👉 **📸 Add screenshots of dashboard visuals** in:  
-📁 `screenshots/powerbi/`
-
----
-
-## 📽 PowerPoint Presentation
-
-Include:
-- Problem Statement and Objective
-- Dataset summary
-- Step-by-step Python process
-- Clustering results with interpretation
-- Power BI visuals
-- Final insights and recommendations
-
-👉 Save your presentation in:  
-📄 `presentation/capstone_presentation.pptx`
-
-👉 Add title slide screenshot in:  
-📁 `screenshots/ppt/`
-
----
-
-## 📁 Final Project Folder Structure
+screenshots of dashboard visuals
 
 
 
