@@ -83,6 +83,7 @@ You should create a Power BI dashboard that includes:
 
 screenshots of dashboard visuals
 
+<img width="995" height="623" alt="image" src="https://github.com/user-attachments/assets/d69d4864-1b17-49ec-b1ef-baf53cdb0734" />
 
 
 
